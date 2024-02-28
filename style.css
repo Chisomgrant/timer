@@ -1,0 +1,52 @@
+.body{
+    background-color: rgb(84, 83, 83);
+}
+
+.h3{
+    color: black;
+}
+.p1{
+    color: plum;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    text-align: justify;
+    display: flex;
+    color: whitesmoke;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.timer{
+    display: flex;
+    flex-direction: row;   
+}
+.timer div{
+    flex-basis: 100px;
+    border: solid #063251;
+    margin-right: 20px;
+    background-color: #063251;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+.timer p{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width:600px) {
+    .project{
+        flex-direction: column;
+    }
+}
